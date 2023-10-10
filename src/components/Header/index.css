@@ -1,0 +1,12 @@
+.list {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.link {
+  height: 24px;
+  width: 5vw;
+  background-color: aliceblue;
+}
