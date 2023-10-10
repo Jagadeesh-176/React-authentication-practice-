@@ -6,7 +6,7 @@ import 'react-loader-spinner/dist/loader/css/react-spinner-loader.css'
 
 import BlogItem from '../BlogItem'
 
-class Products extends Component {
+class Blogs extends Component {
   state = {
     blogsList: [],
     isLoading: true,
@@ -39,7 +39,7 @@ class Products extends Component {
 
     return (
       <div>
-        <h1>This is Products</h1>
+        <h1>This is Blogs</h1>
         {isLoading ? (
           <Loader type="TailSpin" color="#00BFFF" height={50} width={50} />
         ) : (
@@ -50,4 +50,4 @@ class Products extends Component {
   }
 }
 
-export default Products
+export default Blogs

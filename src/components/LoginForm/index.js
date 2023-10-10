@@ -39,7 +39,6 @@ class LoginForm extends Component {
     event.preventDefault()
     const {username, password} = this.state
     const userDetails = {username, password}
-    console.log('user details are,', userDetails)
     const url = 'https://apis.ccbp.in/login'
     const options = {
       method: 'POST',
